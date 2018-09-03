@@ -21,7 +21,6 @@ public class ExampleTest {
     private By signupBtn = By.cssSelector(ta("signupBt", "div.sign-up-container > a"));
     private By emailFl = By.name(ta("emailF", "email"));
 
-
     @BeforeTest
     public void beforeTest() throws MalformedURLException {
         driver = new TrueAutomationDriver(new URL("http://localhost:4444/wd/hub"), cap);
@@ -29,7 +28,6 @@ public class ExampleTest {
         eventListener = new WebDriverListener(driver);
         eventFiringWebDriver.register(eventListener);
     }
-
 
     @Test
     public void exampleTest() {
