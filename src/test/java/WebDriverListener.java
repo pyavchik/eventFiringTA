@@ -9,7 +9,7 @@ public class WebDriverListener implements WebDriverEventListener {
 
     private RemoteWebDriver webDriver;
 
-    public WebDriverListener(RemoteWebDriver webDriver){
+    public WebDriverListener(RemoteWebDriver webDriver) {
         this.webDriver = webDriver;
     }
 
