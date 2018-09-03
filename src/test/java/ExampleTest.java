@@ -13,7 +13,7 @@ import java.net.URL;
 
 import static io.trueautomation.client.TrueAutomationHelper.ta;
 
-public class ExampleTest1 {
+public class ExampleTest {
     private TrueAutomationDriver driver;
     WebDriverListener eventListener;
     EventFiringWebDriver eventFiringWebDriver;
