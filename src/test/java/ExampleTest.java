@@ -28,8 +28,6 @@ public class ExampleTest {
         eventFiringWebDriver = new EventFiringWebDriver(driver);
         eventListener = new WebDriverListener(driver);
         eventFiringWebDriver.register(eventListener);
-
-
     }
 
 
